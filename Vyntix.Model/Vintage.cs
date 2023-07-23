@@ -22,7 +22,7 @@ public class Vintage
     {
     }
 
-    public Vintage(DTOVintageDate dto)
+    public Vintage(FredVintage dto)
     {
         VintageDate = dto.VintageDate;
         Name = dto.VintageDate.ToString("d");

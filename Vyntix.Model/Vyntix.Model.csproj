@@ -31,4 +31,9 @@
 		<None Include="..\VyntixLogo.png" Pack="true" PackagePath="\" />
 		<None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="LeaderAnalytics.Core" Version="3.3.2" />
+	  <PackageReference Include="LeaderAnalytics.Vyntix.Fred.Model" Version="2.0.1" />
+	</ItemGroup>
 </Project>
