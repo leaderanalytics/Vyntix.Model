@@ -9,7 +9,7 @@
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	  <Authors>Leader Analytics</Authors>
 	  <Company>Leader Analytics</Company>
-	  <Product>LeaderAnalytics.Fred.Model</Product>
+	  <Product>LeaderAnalytics.Vyntix.Model</Product>
 	  <Description>Data Transfer Objects for Vyntix.</Description>
 	  <Copyright>2023 Leader Analytics</Copyright>
 	  <PackageProjectUrl>https://github.com/leaderanalytics/Vyntix.Model</PackageProjectUrl>
