@@ -14,7 +14,7 @@ public partial class User : IUser
     [MaxLength(200)][Required]
     public string Name { get; set; }  // "SYSTEM" is reserved. 
     [MaxLength(100)]
-    public string Password { get; set; }
+    public string? Password { get; set; }
     [MaxLength(400)]
     public string DefaultDataDirectory { get; set; }
     public DateTime? StartDate { get; set; }
