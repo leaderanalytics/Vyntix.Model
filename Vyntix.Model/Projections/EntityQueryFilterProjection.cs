@@ -3,5 +3,5 @@
 public class EntityQueryFilterProjection
 {
     public EntityQueryFilter EntityQueryFilter { get; set; }
-    public string Description { get; set; }
+    public string? Description { get; set; }
 }

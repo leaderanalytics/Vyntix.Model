@@ -6,18 +6,18 @@ public partial class Series : ProvidedEntity, ITaggable, ISeriesMetaData
     public string Units { get; set; }
     [MaxLength(50)][Required]
     public string SeasonalAdj { get; set; }
-    public Nullable<System.DateTime> LastUpdated { get; set; }
+    public System.DateTime? LastUpdated { get; set; }
     public int Popularity { get; set; }
-    public Nullable<DateTime> RTStart { get; set; }
-    public string Notes { get; set; }
+    public DateTime? RTStart { get; set; }
+    public string? Notes { get; set; }
     [MaxLength(100)]
-    public string SystemAttributes { get; set; }
-    public Nullable<DateTime> LastDataRequest { get; set; }
+    public string? SystemAttributes { get; set; }
+    public DateTime? LastDataRequest { get; set; }
     [MaxLength(400)][Required]
     public string Name { get; set; }
     public bool IsDiscontinued { get; set; }
     public int NativeFreqDataProviderID { get; set; }
-    public string NativeFreqNativeID { get; set; }
+    public string? NativeFreqNativeID { get; set; }
     public virtual ICollection<Node> Nodes { get; set; }
     public virtual ICollection<ReleaseSeries> ReleaseSeries { get; set; }
     public virtual ICollection<Vintage> Vintages { get; set; }

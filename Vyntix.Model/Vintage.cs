@@ -8,8 +8,8 @@ public class Vintage
     public int SeriesDataProviderID { get; set; }
     public int DataProviderID { get; set; }
     [MaxLength(400)][Required]
-    public String Name { get; set; }
-    public String Notes { get; set; }
+    public string Name { get; set; }
+    public string? Notes { get; set; }
     public DateTime VintageDate { get; set; }
     public ReleaseStatus ReleaseStatus { get; set; }
 

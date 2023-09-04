@@ -16,11 +16,11 @@ public partial class User : IUser
     [MaxLength(100)]
     public string? Password { get; set; }
     [MaxLength(400)]
-    public string DefaultDataDirectory { get; set; }
+    public string? DefaultDataDirectory { get; set; }
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
     public bool IsAdmin { get; set; }
-    public string SerializedSettings { get; set; }      // json 
+    public string? SerializedSettings { get; set; }      // json 
     public UserSetting Settings { get; set; }
     public virtual ICollection<UserDataRole> UserDataRoles { get; set; }
     public virtual ICollection<UserAppRole> UserAppRoles { get; set; }

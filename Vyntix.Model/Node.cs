@@ -4,7 +4,7 @@ public class Node : ProvidedEntity
 {
     public int ParentDataProviderID { get; set; }   // Not nullable.  Two or more DataProviders can have root nodes.
     [MaxLength(100)] 
-    public string ParentNativeID { get; set; }      // Not required
+    public string? ParentNativeID { get; set; }      // Not required
 
 
     public int EntityDataProviderID { get; set; }

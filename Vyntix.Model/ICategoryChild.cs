@@ -2,6 +2,6 @@
 
 public interface ICategoryChild
 {
-    string ParentNativeID { get; set; }
+    string? ParentNativeID { get; set; }
     int? ParentDataProviderID { get; set; } 
 }

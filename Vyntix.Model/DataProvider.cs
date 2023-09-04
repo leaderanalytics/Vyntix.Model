@@ -20,14 +20,14 @@ public partial class DataProvider
     [MaxLength(50)][Required]
     public string ForegroundColor { get; set; }
     [MaxLength(400)]
-    public string IconFileName { get; set; }
+    public string? IconFileName { get; set; }
     public DownloadResult LastDownloadResult { get; set; }
     public DateTime? LastDownloadDate { get; set; }
-    public string Setting1 { get; set; }
-    public string Setting2 { get; set; }
-    public string Setting3 { get; set; }
-    public string Setting4 { get; set; }
-    public string Setting5 { get; set; }
+    public string? Setting1 { get; set; }
+    public string? Setting2 { get; set; }
+    public string? Setting3 { get; set; }
+    public string? Setting4 { get; set; }
+    public string? Setting5 { get; set; }
 
     public virtual User User { get; set; }
     public virtual ICollection<Category> Categories { get; set; }

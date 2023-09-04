@@ -3,7 +3,7 @@
 public class AsyncResult
 {
     public bool Success { get; set; }
-    public string ErrorMessage { get; set; }
+    public string? ErrorMessage { get; set; }
 }
 
 public class AsyncResult<T> : AsyncResult
@@ -23,7 +23,7 @@ public class RowOpResult
     }
 
     public RowOp Result { get; set; } = RowOp.Fail;
-    public string ErrorMessage { get; set; }
+    public string? ErrorMessage { get; set; }
 }
 
 public class RowOpResult<T> : RowOpResult
@@ -41,6 +41,6 @@ public class RowOpResult<T> : RowOpResult
 public class ValidationResult<T>
 {
     public bool Success { get; set; }
-    public string ErrorMessage { get; set; }
+    public string? ErrorMessage { get; set; }
     public T ExistingEntity { get; set; }
 }
