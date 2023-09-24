@@ -1,3 +1,4 @@
+using LeaderAnalytics.Vyntix.Elements;
 namespace LeaderAnalytics.Vyntix.Model;
 
 public partial class DataProvider

@@ -1,11 +1,6 @@
 ﻿namespace LeaderAnalytics.Vyntix.Model;
 
-public enum DataProviderSystemID
-{
-    UserDefined = 0,
-    FRED = 1,
-    Quandl = 2
-}
+
 
 public enum Frequency
 {
@@ -98,21 +93,8 @@ public enum ForecastFilter
     None
 }
 
-public enum DownloadResult
-{
-    Aborted,        // User shuts down or computer powers off or premature shut down for external reason with no exception thrown
-    Faulted,        // An exception is thrown and caught
-    Canceled,       // User cancels and download gracefully terminates
-    Successful
-}
 
-public class DatabaseProviderName
-{
-    public const string Unknown = "Unknown";
-    public const string MSSQL = "MSSQL";
-    public const string SQLite = "SQLite";
-    public const string MySQL = "MySQL";
-}
+
 
 public enum TaggableType
 {
